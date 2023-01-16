@@ -1,0 +1,92 @@
+header{
+    background-color: #4EA0FF;
+    background-image: url("../img/pattern.png"); 
+    height: 170px;
+    position: relative;
+}
+
+.logo{
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    margin-bottom: 0;
+    font-size: 2.5em;
+}
+
+h4, h5{
+    margin: 0;
+    color: #858585;
+}
+
+h5{
+    margin-bottom: 20px;
+}
+
+footer h4:nth-child(){
+    color: #7E7E7E;
+    margin-top: 24px;
+}
+
+footer div h4{
+    color: #FFFFFF;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.text-blue{
+    color: #21A9E5;
+}
+
+.text-description{
+    font-size: 0.75em;
+    margin-top: 0;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+table{
+    text-align: left;
+    border-collapse: collapse;
+    
+}
+
+thead{
+    color: #FFFFFF;
+    background-color: #20A9E5;
+ }
+
+tbody tr:nth-child(odd) {
+    background-color: #B1E5F2;
+  }
+
+tr td:nth-child(even), th:nth-child(even) {
+    padding: 0 100px 0 100px;
+}
+
+footer div{
+    position: relative;
+    height: 200px;
+    width: 270px;
+    margin-top: 8px;
+}
+
+.first-banner{
+    background-image: url("../img/monitor.jpg");
+    background-repeat: no-repeat;
+}
+
+.second-banner{
+    background-image: url("../img/graph.jpg");
+}
