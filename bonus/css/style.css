@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 header{
     background-color: #4EA0FF;
     background-image: url("../img/pattern.png"); 
@@ -77,18 +81,13 @@ tr td:nth-child(even), th:nth-child(even) {
 
 footer div{
     position: relative;
-    height: 140px;
+    height: 138px;
     width: 180px;
     margin-top: 8px;
-    background-size: cover;
+    overflow: hidden;
 }
 
-.first-banner{
-    background-image: url("../img/monitor.jpg");
-    background-repeat: no-repeat;
+div img{
+    width: 208px;
 }
 
-.second-banner{
-    background-image: url("../img/graph.jpg");
-    background-repeat: no-repeat;
-}
