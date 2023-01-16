@@ -77,9 +77,10 @@ tr td:nth-child(even), th:nth-child(even) {
 
 footer div{
     position: relative;
-    height: 200px;
-    width: 270px;
+    height: 140px;
+    width: 180px;
     margin-top: 8px;
+    background-size: cover;
 }
 
 .first-banner{
@@ -89,4 +90,5 @@ footer div{
 
 .second-banner{
     background-image: url("../img/graph.jpg");
+    background-repeat: no-repeat;
 }
